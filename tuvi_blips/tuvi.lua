@@ -1,9 +1,9 @@
 local tuvi_blips = {
-    -- Näide {title="", colour=, id=, x=, y=, z=},
+    -- Example {title="Blip name", colour=, id=, x=, y=, z=},
 
-     {title="Kanepi Korjamine", colour=5, id=140, x = 2224.64, y = 5577.03, z = 53.85},
-     {title="Kanepi Pakendamine", colour=5, id=140, x = 2329.12, y = 2571.868, z = 46.68},
-	 {title="Pablo", colour=52, id=267, x = -1852.37, y = -2811.69, z = 3.47}
+     {title="Store", colour=5, id=140, x = 2224.64, y = 5577.03, z = 53.85},
+     {title="Drift Track", colour=5, id=140, x = 2329.12, y = 2571.868, z = 46.68},
+     {title="Pablo", colour=52, id=267, x = -1852.37, y = -2811.69, z = 3.47}
     }
       
 Citizen.CreateThread(function()
@@ -21,5 +21,5 @@ Citizen.CreateThread(function()
     end
 end)
 
--- pede
+-- Find blip id's here! :D
 -- https://wiki.gtanet.work/index.php?title=Blips
